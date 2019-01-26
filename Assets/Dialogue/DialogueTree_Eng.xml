@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dialogue_Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <dialogueTypes>
+<!--TIPO DE DIALOGO EN ESTE CASO ES MAJORELBASIC-->
+<!-- 	@ EVENTO
+		% EXCLUPE AL NPCS
+		/ SOLO ESE NPC 
+		$ EVENTO EN LA LINEA DEL NPC-->
+    <DialogueTypeClass>
+      <name>MajorelBasic</name>
+      <npc>
+	  <!--COMENTS QUE CORRESPONDEN AL PROPIETARIO DEL DIALOGO, EL PRIMER NUMERO CORRESPONDE AL NODO, LA POSICION CORRESPONDE AL COMMENTINDEX-->
+        <DialogueNpcClass>
+          <name>Majorel</name>
+          <dialogueLines>
+            <string></string>
+			<string></string>
+            <string></string>
+			<string></string>
+			<string>2_What do you know about that trap in the woods?@trap</string>
+			<string>2_Who is the one locked inside the green rooftop house?@drunk%MathiasKill</string>
+			<string>2_If you answer me to some questions I give you the bottle./MathiasKill</string>
+			<string></string>
+          </dialogueLines>
+        </DialogueNpcClass>
+		<!--COMENTS QUE CORRESPONDEN A ROSITA-->
+        <DialogueNpcClass>
+          <name>Rosita</name>
+          <dialogueLines>
+            <string></string><!-- 0-->
+            <string>Nice to meet you too I'm Rosita.</string><!-- 1-->
+            <string></string><!-- 2-->
+			<string>I'm living here for about five years.</string><!-- 3-->
+			<string>My house is the one at the left of the Aldis's farm, above the river.</string><!-- 4-->
+			<string>Maybe not dangerous but Mathias is a disgusting being.$wino</string><!-- 5-->
+			<string></string><!-- 6-->
+			<string></string><!-- 7-->
+			<string></string><!-- 8-->
+			<string></string><!-- 9-->
+			<string></string><!-- 10-->
+			<string>Ugh, is the Aldis's snake trap. I'm allergic to those animals.$snake</string><!-- 11-->
+          </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Quincarnon</name>
+          <dialogueLines>
+            <string></string><!-- 0-->
+            <string>Hello sweetie my name is Quincarnon.</string><!-- 1-->
+            <string></string><!-- 2-->
+			<string>Ehmm... twenty years ago. Why you ask?</string><!-- 3-->
+			<string>My house is the one at the west end of the village.</string><!-- 4-->
+			<string>Not at all, this village is super peaceful.</string><!-- 5-->
+			<string></string><!-- 6-->
+			<string></string><!-- 7-->
+			<string></string><!-- 8-->
+			<string></string><!-- 9-->
+			<string></string><!-- 10-->
+			<string>Aldis use them to catch snakes.$trap</string><!-- 11-->
+          </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>MathiasKill</name>
+          <dialogueLines>
+            <string></string><!-- 0-->
+            <string>Me..Mathias...*Burp*</string><!-- 1-->
+            <string></string><!-- 2-->
+			<string>Who cares?</string><!-- 3-->
+			<string>Are you blind or what?</string><!-- 4-->
+			<string>Me, if you don't give me that booze.</string><!-- 5-->
+			<string></string><!-- 6-->
+			<string></string><!-- 7-->
+			<string></string><!-- 8-->
+			<string></string><!-- 9-->
+			<string></string><!-- 10-->
+			<string>I don't know.</string><!-- 11-->
+          </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Marga</name>
+          <dialogueLines>
+            <string></string><!-- 0-->
+            <string>Hi, my name is Marga.</string><!-- 1-->
+            <string></string><!-- 2-->
+			<string>Around twenty years and ten years later came my beloved Quincarnon.</string><!-- 3-->
+			<string>I live with Quincarnon at the west end house.</string><!-- 4-->
+			<string>Dangerous? Nah, but personally, I never liked that farmer guy.</string><!-- 5-->
+			<string></string><!-- 6-->
+			<string></string><!-- 7-->
+			<string></string><!-- 8-->
+			<string></string><!-- 9-->
+			<string></string><!-- 10-->
+			<string>Aldis use them to catch snakes.$trap</string><!-- 11-->
+          </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Aldis</name>
+          <dialogueLines>
+            <string></string>
+            <string>Nice too meet you young Lady, I'm Aldis.</string>
+            <string></string>
+			<string>I bought the farm around fifteen years ago. So I'm here since.</string>
+			<string>I live in the farm at the south west.</string>
+			<string>Well, sometimes Mathias gets stupid but not dangerous.$wino</string>
+			<string></string><!-- 6-->
+			<string></string><!-- 7-->
+			<string></string><!-- 8-->
+			<string></string><!-- 9-->
+			<string></string><!-- 10-->
+			<string>The trap is mine, I use them to catch snakes.$trap</string>
+          </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Kip</name>
+          <dialogueLines>
+            <string></string><!-- 0-->
+            <string>My name is Alvian but everyone calls me Kip.</string><!-- 1-->
+            <string></string><!-- 2-->
+			<string>That's not your concern, little girl.</string><!-- 3-->
+			<string>The shop is my house.</string><!-- 4-->
+			<string>I never liked Quincarnon but that doesn't make him dangerous.</string><!-- 5-->
+			<string></string><!-- 6-->
+			<string></string><!-- 7-->
+			<string></string><!-- 8-->
+			<string></string><!-- 9-->
+			<string></string><!-- 10-->
+			<string>Aldis use them to catch snakes.$trap</string><!-- 11-->
+          </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Royce</name>
+          <dialogueLines>
+            <string></string><!-- 0-->
+            <string>Nice to meet you too my name is Royce.</string><!-- 1-->
+            <string></string><!-- 2-->
+			<string>Kip and I move here around ten years ago.</string><!-- 3-->
+			<string>The shop is where I live.</string><!-- 4-->
+			<string>No dangerous people around here I think.</string><!-- 5-->
+			<string></string><!-- 6-->
+			<string></string><!-- 7-->
+			<string></string><!-- 8-->
+			<string></string><!-- 9-->
+			<string></string><!-- 10-->
+			<string>Aldis use them to catch snakes.$trap</string><!-- 11-->
+          </dialogueLines>
+        </DialogueNpcClass>
+		<!--COMMENTS QUE TODOS LOS NPCS DIRAN-->
+        <DialogueNpcClass>
+          <name>All</name>
+          <dialogueLines>
+            <string></string>
+            <string></string>
+            <string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+			<string></string>
+          </dialogueLines>
+        </DialogueNpcClass>
+      </npc>
+    </DialogueTypeClass>
+<!--/////////////////////////////////////////////////////////////////////-->
+<!--ROSITABASIC-->
+    <DialogueTypeClass>
+      <name>RositaBasic</name>
+      <npc>
+		<DialogueNpcClass>
+          <name>Rosita</name>
+          <dialogueLines>
+            <string></string>
+            <string></string>
+            <string></string>
+			<string>1_Do you want to meet me at my house?/Quincarnon</string>
+			<string></string>
+			<string>1_If you answer me to some questions I'll give you the bottle./MathiasKill</string>
+			<string>1_Do you know about those traps?@trap</string>
+		  </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Kip</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>I'm fine thanx</string> <!--2-->
+			<string>oh, yes...</string> <!--3-->
+			<string>What are you saying?</string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>You know, the Aldis's snake trap.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Quincarnon</name>
+          <dialogueLines>
+            <string></string>
+            <string></string>
+            <string>Good good, when we can date?</string>
+			<string>Ehm, yes I guess.</string>
+			<string>Hmm... We are seeing each other not long ago. What you mean?</string>
+			<string></string>
+			<string></string> <!--6-->
+			<string>You know, the Aldis's snake trap.$trap</string>
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>MathiasKill</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Drunk</string> <!--2-->
+			<string>what?</string> <!--3-->
+			<string>Yeah, sur...wait, what?</string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>You know, the Aldis's snake trap.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Marga</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Why you care about?</string> <!--2-->
+			<string>...</string> <!--3-->
+			<string>You and me?What are you talking about?</string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>You know, the Aldis's snake trap.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Royce</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Just fine</string> <!--2-->
+			<string>Yes yes, good weather</string> <!--3-->
+			<string>I think you are mistaken</string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>You know, the Aldis's snake trap.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+      </npc>
+    </DialogueTypeClass>
+<!--ALDISBASIC-->
+    <DialogueTypeClass>
+      <name>AldisBasic</name>
+      <npc>
+		<DialogueNpcClass>
+          <name>Aldis</name>
+          <dialogueLines>
+            <string></string>
+            <string></string>
+            <string></string>
+			<string></string>
+			<string>1_Do you know about those traps?@trap</string>
+			<string>1_If you answer me to some questions I'll give you the bottle./MathiasKill</string>
+		  </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Kip</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>It's fine I guess.</string> <!--2-->
+			<string>What old times? To live here? Yeah...</string> <!--3-->
+			<string></string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>Are you stupid? It's your snake trap, Aldis.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Quincarnon</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Well it could be better.</string> <!--2-->
+			<string>What are you talking about?</string> <!--3-->
+			<string></string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>Are you stupid? It's your snake trap, Aldis.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>MathiasKill</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>This is hell on earth.</string> <!--2-->
+			<string>Shut up! Idiot.</string> <!--3-->
+			<string></string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>Are you stupid? It's your snake trap, Aldis.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Marga</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Yes i love it.</string> <!--2-->
+			<string>What' get away from me!</string> <!--3-->
+			<string></string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>Are you stupid? It's your snake trap, Aldis.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Royce</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Yes I do.</string> <!--2-->
+			<string>Are you drinking?</string> <!--3-->
+			<string></string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>Are you stupid? It's your snake trap, Aldis.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Rosita</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Well it's not bad.</string> <!--2-->
+			<string>Don't touch me.</string> <!--3-->
+			<string></string> <!--4-->
+			<string></string> <!--5-->
+			<string></string> <!--6-->
+			<string>Is it a joke? Do you have a snake there? You know I'm allergic to that!!$snake</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+      </npc>
+    </DialogueTypeClass>
+<!--QUINCARNONBASIC-->
+    <DialogueTypeClass>
+      <name>QuincarnonBasic</name>
+      <npc>
+		<DialogueNpcClass>
+          <name>Quincarnon</name>
+          <dialogueLines>
+            <string></string>
+            <string></string>
+            <string></string>
+			<string></string>
+			<string>1_Do you know about those traps?@trap</string>
+			<string>1_If you answer me to some questions I'll give you the bottle./MathiasKill</string>
+		  </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Kip</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>I don't care.</string> <!--2-->
+			<string>What times? We didn't have "times"</string> <!--3-->
+			<string>Guess what. I DON'T CARE!</string> <!--4-->
+			<string></string> <!--5-->
+			<string>You know, Aldis's snake trap.$trap</string> <!--6-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>MathiasKill</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Quincarnon Le Cordier, conceited as always.</string> <!--2-->
+			<string>Oh man! Every time, eeeevery time!</string> <!--3-->
+			<string>Hahaha! Shut up!</string> <!--4-->
+			<string></string> <!--5-->
+			<string>You know, Aldis's snake trap.$trap</string> <!--6-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Marga</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Oh my love, you look astonishing!</string> <!--2-->
+			<string>Still we have good times, haven't we?</string> <!--3-->
+			<string>I like you just like that.</string> <!--4-->
+			<string></string> <!--5-->
+			<string>You know, Aldis's snake trap.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Royce</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Oh yes! You look juuust fine!.</string> <!--2-->
+			<string>What times you mean my dear?</string> <!--3-->
+			<string>Hmmm... Yeah, why not?</string> <!--4-->
+			<string></string> <!--5-->
+			<string>You know, Aldis's snake trap.$trap</string> <!--7-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+	  </npc>
+    </DialogueTypeClass>
+<!--MathiasBASIC-->
+    <DialogueTypeClass>
+      <name>MathiasBasic</name>
+      <npc>
+		<DialogueNpcClass>
+          <name>Mathias</name>
+          <dialogueLines>
+            <string></string>
+            <string></string>
+            <string></string>
+			<string></string>
+			<string>1_Do you know about the trap at the woods?@trap</string>
+		  </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Kip</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Miracle!</string> <!--2-->
+			<string></string> <!--3-->
+			<string></string> <!--4-->
+			<string>Look at you Mathias, take care of yourself first.</string> <!--5-->
+			<string>I have alcohol at the store but is not for drinking Mathias it could kill you</string> <!--6-->
+			<string>Are you drunk?</string> <!--7-->
+			<string>You know, Aldis's snake trap.$trap</string> <!--8-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Quincarnon</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Hooray!</string> <!--2-->
+			<string></string> <!--3-->
+			<string></string> <!--4-->
+			<string>C'mon I'm your friend!</string> <!--5-->
+			<string>Listen, I'm dating Rosita! Don't tell Marga.$lover</string> <!--6-->
+			<string>Yes man, we had such a good times but things has changed we have to behave now.$thug</string> <!--7-->
+			<string>You know, Aldis's snake trap.$trap</string> <!--8-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Aldis</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Hallelujah!</string> <!--2-->
+			<string></string> <!--3-->
+			<string></string> <!--4-->
+			<string>I can be you friend if want.</string> <!--5-->
+			<string>I love to make straw cubes.$straw</string> <!--6-->
+			<string>Ehmm.. what?</string> <!--7-->
+			<string>Is my snake trap.$trap</string> <!--8-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Marga</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Gods and goddesses!</string> <!--2-->
+			<string></string> <!--3-->
+			<string></string> <!--4-->
+			<string>Maybe you drink too much.</string> <!--5-->
+			<string>If Quincarnon is cheating on me, I'll kill him!.$burn</string> <!--6-->
+			<string>You and I? Never!</string> <!--7-->
+			<string>You know, Aldis's snake trap.$trap</string> <!--8-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Royce</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>Oooohhh YEAH!</string> <!--2-->
+			<string></string> <!--3-->
+			<string></string> <!--4-->
+			<string>Oh poor soul.</string> <!--5-->
+			<string>Please don't make fire near the straw, it's very flammable.$burn</string> <!--6-->
+			<string>I think you are not thinking clearly.</string> <!--7-->
+			<string>You know, Aldis's snake trap.$trap</string> <!--8-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+		<DialogueNpcClass>
+          <name>Rosita</name>
+          <dialogueLines>
+            <string></string> <!--0-->
+            <string></string> <!--1-->
+            <string>great</string> <!--2-->
+			<string></string> <!--3-->
+			<string></string> <!--4-->
+			<string>Smell your breath and you'll know.</string> <!--5-->
+			<string>Something.</string> <!--6-->
+			<string>Get away from me.</string> <!--7-->
+			<string>You know, Aldis's damned snake trap.$trap</string> <!--8-->
+		   </dialogueLines>
+        </DialogueNpcClass>
+      </npc>
+    </DialogueTypeClass>
+  </dialogueTypes>
+</Dialogue_Root>

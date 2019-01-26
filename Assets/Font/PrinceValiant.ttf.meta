@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d5d057a4371faf446ab863ff03614b38
+timeCreated: 1531737848
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Prince Valiant
+  fontNames:
+  - Prince Valiant
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

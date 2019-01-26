@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DialogueRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <returnLine>Back</returnLine>
+  <shop>¿Qué tienes a la venta?</shop>
+  <playMeoan>Let's play Meoan</playMeoan>
+  <wantToAsk>I want to ask you something...</wantToAsk>
+  <needInformation>Get some information</needInformation>
+  <farewellClass>
+    <farewell>
+      <string>Adios</string>
+      <string>Hasta otra</string>
+      <string>Nos vemos</string>
+      <string>Chaito</string>
+      <string>Adios muy buenas</string>
+    </farewell>
+  </farewellClass>
+  <greetingClass>
+    <greetingsQuestions>
+      <string>Hello, how are you?</string>
+      <string>Hour are you?</string>
+      <string>Greetings</string>
+      <string>Hey, what's up?</string>
+      <string>Hi, how is it going?</string>
+    </greetingsQuestions>
+    <greetingsAnswers>
+      <string>Bien, gracias.</string>
+      <string>Muy bien.</string>
+      <string>Bien a secas</string>
+      <string>Meh</string>
+      <string>Sigo vivo</string>
+    </greetingsAnswers>
+  </greetingClass>
+  <rumourClass>
+    <rumoursQuestion>
+      <string>¿Qué se cuentan por el pueblo?</string>
+      <string>¿Any new rumours?</string>
+      <string>¿De qué se habla últimamente por el pueblo?</string>
+      <string>¿Do you know any rumours?</string>
+      <string>Tell me something</string>
+    </rumoursQuestion>
+    <rumoursAnswers>
+      <string>@_Dicen algunos que Quincarnon tiene un amante aquí en el pueblo.</string>
+      <string>@_Parece ser que los guardias del Lord llevan una dieta muy estricta.</string>
+      <string>@_El Boticario, ahí donde lo ves, solía ser experto en venenos cuando era joven.</string>
+      <string>@_No se si será verdad pero hay quien dice que hay una cámara repleta de dinero en el castillo 	del Lord.</string>
+      <string>@_El chico de los establos y el Boticario son muy amigos</string>
+	  <string>No se me ocurre nada</string>
+	  <string>No seas cotilla</string>
+	  <string>Ehm....</string>
+    </rumoursAnswers>
+  </rumourClass>
+  <uniqueClass>
+	<Dialogue_UniqueQuestionClass><!--Majorel a Todos-->
+		<speakers>0</speakers>
+		<listener>-1</listener>
+		<exception>-1</exception>
+		<exceptionAtLine>-1</exceptionAtLine>
+		<keys />
+		<uniqueQuestion>
+			<string>¿Quién eres?</string>
+			<string>¿Donde se puede dormir por aquí?</string>
+			<string>¿Conoces a Mathias?</string>
+		</uniqueQuestion>
+		<uniqueAnswers>
+			<string>Encantado, soy </string>
+			<string>En la posada siempre hay sitio a cambio de una moneda</string>
+			<string>@_Claro, es el borracho del pueblo. Hace tiempo que no sale de su casa.</string>
+		</uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+    <Dialogue_UniqueQuestionClass><!--Majorel a Rosita-->
+      <speakers>0</speakers>
+      <listener>15</listener>
+	  <exception>-1</exception>
+	  <exceptionAtLine>-1</exceptionAtLine>
+	  <keys />
+      <uniqueQuestion>
+        <string>¿Tu eres rosita?</string>
+        <string>Que bonito tienes el brazo</string>
+		<string>Que bonito tienes el brazo</string>
+		<string>Que bonito tienes el brazo</string>
+		<string>Que bonito tienes el brazo</string>
+	  </uniqueQuestion>
+      <uniqueAnswers>
+        <string>@_Si lo soy.</string>
+        <string>El secreto es no lavarlo nunca</string>
+		<string>El secreto es no lavarlo nunca</string>
+		<string>El secreto es no lavarlo nunca</string>
+		<string>El secreto es no lavarlo nunca</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+	<Dialogue_UniqueQuestionClass><!--Rosita a Quincarnon-->
+      <speakers>15</speakers>
+      <listener>2</listener>
+	  <exception>-1</exception>
+	  <exceptionAtLine>-1</exceptionAtLine>
+	  <keys>
+		<string> </string>
+        <string>dated </string>
+		<string> </string>
+      </keys>
+      <uniqueQuestion>
+		<string>Have you met the new girl?</string>
+		<string>*_¿Te apetece una cita en mi casa? </string>
+		<string>/_¿Te apetece una cita en mi casa? </string>
+	  </uniqueQuestion>
+      <uniqueAnswers>
+        <string>Yes. ¿what about it, are you jealous? hohoho... </string>
+		<string>@_Por supuesto, ve adelantandote, estaré allí en 30 minutos</string>
+		<string>Nah... mañana será otro día.</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+    <Dialogue_UniqueQuestionClass><!--Todos a Todos-->
+      <speakers>-1</speakers>
+      <listener>-1</listener>
+	  <exception>2</exception>
+	  <exceptionAtLine>1</exceptionAtLine>
+	  <keys>
+        <string>pidgeon</string>
+        <string>lover</string>
+		<string>address</string>
+      </keys>
+      <uniqueQuestion>
+        <string>¿Tienes palomas mensajeras?</string>
+		<string>¿Quien es la amante de Quincarnon?</string>
+		<string>¿Cómo podría contactar con esta dirección?</string>
+      </uniqueQuestion>
+      <uniqueAnswers>
+        <string>@_No, pero seguro que el granjero tiene</string>
+		<string>¿Amante? No tengo ni idea</string>
+		<string>@_Enviando una paloma mensajera</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+  </uniqueClass>
+</DialogueRoot>

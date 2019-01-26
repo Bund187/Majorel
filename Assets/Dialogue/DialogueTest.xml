@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DialogueRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <returnLine>Adios</returnLine>
+  <shop>¿Qué tienes a la venta?</shop>
+  <playMeoan>Juguemos al Meoan</playMeoan>
+  <wantToAsk>Quiero preguntarte una cosa...</wantToAsk>
+  <needInformation>Recabar información</needInformation>
+  <greetingClass>
+    <greetingsQuestions>
+      <string>¿Saludo 0</string>
+      <string>¿Saludo 1</string>
+      <string>¿Saludo 2</string>
+      <string>¿Saludo 3</string>
+      <string>¿Saludo 4</string>
+    </greetingsQuestions>
+    <greetingsAnswers>
+      <string>Respuesta Saludo 0</string>
+      <string>Respuesta Saludo 1</string>
+      <string>Respuesta Saludo 2</string>
+      <string>Respuesta Saludo 3</string>
+      <string>Respuesta Saludo 4</string>
+    </greetingsAnswers>
+  </greetingClass>
+  <rumourClass>
+    <rumoursQuestion>
+      <string>¿Rumor 0</string>
+      <string>¿Rumor 1</string>
+      <string>¿Rumor 2</string>
+      <string>¿Rumor 3</string>
+      <string>¿Rumor 4</string>
+    </rumoursQuestion>
+    <rumoursAnswers>
+      <string>Respuesta rumor 0</string>
+      <string>Respuesta rumor 1</string>
+      <string>Respuesta rumor 2</string>
+      <string>Respuesta rumor 3</string>
+      <string>Respuesta rumor 4</string>
+    </rumoursAnswers>
+  </rumourClass>
+  <uniqueClass>
+    <Dialogue_UniqueQuestionClass>
+      <speakers>0</speakers>
+      <listener>2</listener>
+      <exception>0</exception>
+      <exceptionAtLine>0</exceptionAtLine>
+      <trigger>false</trigger>
+      <keys />
+      <uniqueQuestion>
+        <string>Pregunta unica de Majorel 0</string>
+        <string>Pregunta unica de Majorel 1</string>
+        <string>Pregunta unica de Majorel 2</string>
+      </uniqueQuestion>
+      <uniqueAnswers>
+        <string>Respuesta unica a Pregunta unica de Majorel 0</string>
+        <string>Respuesta unica a Pregunta unica de Majorel 1</string>
+        <string>Respuesta unica a Pregunta unica de Majorel 2</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+    <Dialogue_UniqueQuestionClass>
+      <speakers>15</speakers>
+      <listener>-1</listener>
+      <exception>0</exception>
+      <exceptionAtLine>0</exceptionAtLine>
+      <trigger>true</trigger>
+      <keys>
+        <string>lover</string>
+      </keys>
+      <uniqueQuestion>
+        <string>Pregunta unica de Rosita a Quincarnon 0</string>
+        <string>Pregunta unica de Rosita a Quincarnon 1</string>
+      </uniqueQuestion>
+      <uniqueAnswers>
+        <string>Respuesta unica de Quincarnon a Rosita 0</string>
+        <string>Respuesta unica de Quincarnon a Rosita 1</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+    <Dialogue_UniqueQuestionClass>
+      <speakers>-1</speakers>
+      <listener>-1</listener>
+      <exception>0</exception>
+      <exceptionAtLine>0</exceptionAtLine>
+      <trigger>true</trigger>
+      <keys>
+        <string>pidgeon</string>
+        <string>address</string>
+      </keys>
+      <uniqueQuestion>
+        <string>Tienes palomas mensajeras?</string>
+        <string>Como contacto con esta direccion?</string>
+      </uniqueQuestion>
+      <uniqueAnswers>
+        <string>No, pero seguro que el granjero tiene</string>
+        <string>Con una paloma mensajera</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+  </uniqueClass>
+</DialogueRoot>

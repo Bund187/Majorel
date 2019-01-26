@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DialogueRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <sentence>
+    <string> </string>
+	<string> </string>
+	<string>It was a warm afternoon when I found them...</string>
+    <string>My parents lay dead on the floor.</string>
+    <string>That day my life changed forever.</string>
+    <string>... so I walked away...</string>
+    <string>...</string>
+	<string>...I just walked away.</string>
+	<string> </string>
+    <string>I survived in the woods, not sure how.</string>
+    <string>Maybe because I know the forest well.</string>
+	<string> </string>
+	<string>Finally, I arrived to Nivine.</string>
+	<string>I thought somebody would help me.</string>
+	<string>How wrong I was...</string>
+	<string> </string>
+	<string>There, I learned how to steal, how to defend myself...</string>
+	<string> </string>
+	<string>So I survived. And then... I found you.</string>
+	<string> </string>
+  </sentence>
+  <majorelSentence>
+    <string>frase majorel 0</string>
+    <string>What..What are you!</string>
+    <string>frase majorel 2</string>
+    <!--<string>frase majorel 3</string>-->
+    <!--<string>frase majorel 4</string>-->
+    <string>frase majorel 5</string>
+    <string>Where? Just...</string>
+    <string>frase majorel 7</string>
+    <!--<string>frase majorel 8</string>-->
+    <string>AAAAAHHH!</string>
+	<string>frase majorel 10</string>
+    <string>frase majorel 11</string>
+    
+  </majorelSentence>
+  <entitySentence>
+    <string>Hello Majorel...</string>
+    <string>That doesn't matter.</string>
+    <!--<string>We know many things</string>-->
+    <!--<string>We know you are a survivor</string>-->
+    <string>You want revenge.</string>
+    <string>And we know where you can find it.</string>
+    <string>Go two days north to Cornwood Dale village.</string>
+    <!--<string></string>-->
+    <string>But first... take this.</string>
+    <string>Now, you can become anyone you kill.</string>
+	<string>Their souls will be ours, the bodies all yours.</string>
+    <string>Farewell Majorel.</string>
+    
+  </entitySentence>
+</DialogueRoot>

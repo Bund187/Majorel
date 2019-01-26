@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dialogue_Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <events>
+    <DialogueEventClass>
+      <eventName>Evento 1</eventName>
+      <eventIndex>2</eventIndex>
+      <eventValue>false</eventValue>
+    </DialogueEventClass>
+    <DialogueEventClass>
+      <eventName>Evento 2</eventName>
+      <eventIndex>0</eventIndex>
+      <eventValue>false</eventValue>
+    </DialogueEventClass>
+    <DialogueEventClass>
+      <eventName>Evento 3</eventName>
+      <eventIndex>0</eventIndex>
+      <eventValue>false</eventValue>
+    </DialogueEventClass>
+  </events>
+  <dialogueTypes>
+    <DialogueTypeClass>
+      <name>MajorelBasic</name>
+      <npc>
+        <DialogueNpcClass>
+          <name>Mathias</name>
+          <dialogueLines>
+            <string>Frase mathias 0</string>
+            <string>Frase mathias 1</string>
+            <string>Frase mathias 2</string>
+          </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Marga</name>
+          <dialogueLines>
+            <string>Frase Marga 0</string>
+            <string>Frase Marga 1</string>
+            <string>Frase Marga 2</string>
+          </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Rosita</name>
+          <dialogueLines>
+            <string>Frase Rosita 0</string>
+            <string>Frase Rosita 1</string>
+            <string>Frase Rosita 2</string>
+          </dialogueLines>
+        </DialogueNpcClass>
+      </npc>
+    </DialogueTypeClass>
+    <DialogueTypeClass>
+      <name>QuincarnonBasic</name>
+      <npc>
+        <DialogueNpcClass>
+          <name>Royce</name>
+          <dialogueLines>
+            <string>Frase Royce 0</string>
+            <string>Frase Royce 1</string>
+            <string>Frase Royce 2</string>
+          </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Marga</name>
+          <dialogueLines>
+            <string>Frase Marga 0</string>
+            <string>Frase Marga 1</string>
+            <string>Frase Marga 2</string>
+            <string>Frase Kip 0</string>
+            <string>Frase Kip 1</string>
+            <string>Frase Kip 2</string>
+          </dialogueLines>
+        </DialogueNpcClass>
+        <DialogueNpcClass>
+          <name>Kip</name>
+          <dialogueLines />
+        </DialogueNpcClass>
+      </npc>
+    </DialogueTypeClass>
+  </dialogueTypes>
+</Dialogue_Root>

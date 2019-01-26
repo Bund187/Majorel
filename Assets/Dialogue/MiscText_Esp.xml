@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DialogueRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--> MEOAN <!-->
+	<gold>oro</gold>
+	<placeYourbet>Haz tu apuesta</placeYourbet>
+	<bet>Apuesta</bet>
+	<exit>Salir</exit>
+	<rolltheDice>Tira el dado</rolltheDice>
+	<roll>Tira</roll>
+	<pressAnykey>Pulsa cualquier tecla</pressAnykey>
+	<player>Jugador</player>
+	<opponent>Oponente</opponent>
+	<score>Puntuación</score>
+	<roundScore>Puntuación ronda</roundScore>
+	<pass>Pasar</pass>
+	<youWin>¡Ganaste!</youWin>
+	<youLose>You Lose</youLose>
+	<warningBet>Has de apostar algo</warningBet>
+	<playerStarts>Empieza el jugador</playerStarts>
+	<opponentStarts>Empieza el oponente</opponentStarts>
+	<draw>Empate</draw>
+	<rollAgain>Tira otra vez</rollAgain>
+	<badLuck>Mala suerte</badLuck>
+	<opponentFail>El oponente falla</opponentFail>
+	<yourTurn>Tu turno</yourTurn>
+	<luckyOne>¡¡Uno de la suerte!!</luckyOne>
+	<opponenPasses>El oponente pasa</opponenPasses>
+	<yourEarn>Ganas </yourEarn>
+  
+  <!--> TIENDA <!-->
+	<bottle>Botella de alcohol</bottle>
+	<shopSentence>¿Qué tienes a la venta?</shopSentence>
+	<shopConfirmation>¿Quieres comprarlo?</shopConfirmation>
+  
+    <!--> FRASES SUELTAS <!-->
+	<stairClosed>¡Hey, no se puede subir ahí!</stairClosed>
+	<doorClosed>Está cerrado. Yo no vivo aquí</doorClosed>
+	<cantUse>No puedo usar eso aquí</cantUse>
+	<isDead>Ha muerto</isDead>
+	<quincarnonNoDate>Bah... Qué perdida de tiempo</quincarnonNoDate>
+	<quincarnonFlee>Ah! Ehm... hola... Adios.</quincarnonFlee>
+	<quincarnonLate>¡Aquí estás! ¿Entramos?</quincarnonLate>
+	<cantTransmutate>No puedo transmutarme aquí, hay gente cerca.</cantTransmutate>
+	<notEnoughCoin>No tienes dinero suficiente</notEnoughCoin>
+  
+  
+    <!--> TRAMPA SERPIENTES <!-->
+	<disarmedTrap>Looks like a trap but is disarmed</disarmedTrap>
+	<trapSet>La trampa está armada, sólo queda esperar...</trapSet>
+	<armedTrap>TRAMPA ARMADA</armedTrap>
+	<snakeNoBoxSentence>Una serpiente cayó en la trampa pero no tengo nada para guardarla</snakeNoBoxSentence>
+	<snakeBoxSetence>Ven aquí guapa</snakeBoxSetence>
+  
+		<!--> INVENTARIO <!-->
+	<newObject>Añadido al inventario</newObject>
+	<schematics>Esquema de trampa</schematics> 
+	<schematicsDescription>Instrucciones para montar una trampa para serpientes</schematicsDescription>
+	<flintSteel>Pedernal y eslabón</flintSteel> 
+	<flintSteelDescription>Un pedernal y eslabón para hacer fuego</flintSteelDescription>
+	<giftBox>Caja de regalo</giftBox> 
+	<giftBoxDescription>Una cajita de madera con un lazo perfecta para regalar. Está vacía</giftBoxDescription>
+	<alcoholBottle>Botella de alcohol</alcoholBottle> 
+	<alcoholBottleDescription>Una botella de alcohol de alta graduación</alcoholBottleDescription>
+	<snakeBox>Serpiente de regalo</snakeBox> 
+	<snakeBoxDescription>Una caja de madera con un lazo y una serpiente dentro</snakeBoxDescription>
+  
+		<!--> CLUES <!-->
+	<messengerPidgeon>Puedo contactar con la dirección por medio de una paloma mesajera</messengerPidgeon>
+	<stablesPidgeon>En los establos hay palomas mensajeras</stablesPidgeon> 
+	<castleBooty>Parece que el castillo guarda un gran botín</castleBooty>
+	<lover>Es posible que Quincarnon tenga una amante</lover> 
+	<dateSet>He quedado con Quincarnon a las 11 en casa de Rosita</dateSet>
+    
+</DialogueRoot>

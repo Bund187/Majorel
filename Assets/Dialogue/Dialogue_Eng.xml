@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DialogueRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <returnLine>Back</returnLine>
+  <shop>What do you have for sale?</shop>
+  <playMeoan>Let's play Meoan</playMeoan>
+  <wantToAsk>I want to ask you something...</wantToAsk>
+  <needInformation>Get some information</needInformation>
+  <farewellClass>
+    <farewell>
+      <string>Bye</string>
+      <string>See you around</string>
+      <string>See ya</string>
+      <string>Ciao</string>
+      <string>Bye bye</string>
+    </farewell>
+  </farewellClass>
+  <greetingClass>
+    <greetingsQuestions>
+      <string>Hello</string>
+      <string>Hi</string>
+      <string>Greetings</string>
+      <string>Hey</string>
+      <string>Hi there</string>
+    </greetingsQuestions>
+    <greetingsAnswers>
+      <string>Heey</string>
+      <string>Sup</string>
+      <string>Hello</string>
+      <string>Meh</string>
+      <string>..ah Hi</string>
+    </greetingsAnswers>
+  </greetingClass>
+  <rumourClass>
+    <rumoursQuestion>
+      <string>What's the word around town?</string>
+      <string>Any new rumours?</string>
+      <string>Something new happened?</string>
+      <string>Do you know any rumours?</string>
+      <string>Tell me something</string>
+    </rumoursQuestion>
+    <rumoursAnswers>
+      <string>@_Looks like the Lord's personal guard have an strict diet</string>
+      <string>@_The apothecary just to be a great poison expert</string>
+      <string>@_I don't know if it's true but some say that there's a big booty in a castle chamber.</string>
+      <string>@_The stables kid and the apothecary are great friends</string>
+	  <string>I don't know</string>
+	  <string>Don't be a busybody</string>
+	  <string>Ehm....</string>
+    </rumoursAnswers>
+  </rumourClass>
+  <uniqueClass>
+	<Dialogue_UniqueQuestionClass><!--Majorel a Todos-->
+		<speakers>0</speakers>
+		<listener>-1</listener>
+		<exception>-1</exception>
+		<exceptionAtLine>-1</exceptionAtLine>
+		<keys />
+		<uniqueQuestion>
+			<string>My name in Majorel, please to meet you</string>
+			<string>Where can I sleep around here?</string>
+			<string>Do you know if there is someone with a shady past, here in Cornwood Dale?</string>
+		</uniqueQuestion>
+		<uniqueAnswers>
+			<string>Please to meet you I'm </string>
+			<string>@_At the George Tavern there's always a bed in exchange for coin</string>
+			<string>@_Hmmm... not sure. Maybe Mathias Brew the town wino.</string>
+		</uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+    <Dialogue_UniqueQuestionClass><!--Mathias a Quincarnon-->
+      <speakers>1</speakers>
+      <listener>2</listener>
+	  <exception>-1</exception>
+	  <exceptionAtLine>-1</exceptionAtLine>
+	  <keys />
+      <uniqueQuestion>
+        <string>How's life bro?</string>
+		<string>I need a coin, man. Can you help me out?</string>
+      </uniqueQuestion>
+      <uniqueAnswers>
+        <string>@_Great! look I'm dating Rosita, the young girl next to the farm. She is amazing.</string>
+		<string>@_Mathias you've been a century inside your home. This is not like the old times, you have to do something with your life.</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+	<Dialogue_UniqueQuestionClass><!--Majorel a Mathias-->
+      <speakers>0</speakers>
+      <listener>1</listener>
+	  <exception>-1</exception>
+	  <exceptionAtLine>-1</exceptionAtLine>
+	  <keys />
+      <uniqueQuestion>
+        <string>Are you Mathias Brew?</string>
+		<string>So you used to kill people back then, right?</string>
+		<string>There are no words for how disgusting you are.</string>
+		<string>Who else were on your team</string>
+      </uniqueQuestion>
+      <uniqueAnswers>
+        <string>No, I'm a red tentacle. Shut Up and give me the booze!</string>
+		<string>Yeah! And they used to scream and beg. What are you kid, the king's guard? Hahahaha!</string>
+		<string>Yes there are. You just never learned them</string>
+		<string>Ain't no snitch boy.If you use that bottle you have with me I'll tell you</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+	<Dialogue_UniqueQuestionClass><!--Aldis a Marga-->
+      <speakers>11</speakers>
+      <listener>4</listener>
+	  <exception>-1</exception>
+	  <exceptionAtLine>-1</exceptionAtLine>
+	  <keys />
+      <uniqueQuestion>
+        <string>What can you tell me about Rosita?</string>
+	  </uniqueQuestion>
+      <uniqueAnswers>
+        <string>@_What? Do you like her? Haha, well she is allergic to snakes so don't put any near of her. I know you love those animals.</string>
+	  </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+	<Dialogue_UniqueQuestionClass><!--Rosita a Quincarnon-->
+      <speakers>15</speakers>
+      <listener>2</listener>
+	  <exception>-1</exception>
+	  <exceptionAtLine>-1</exceptionAtLine>
+	  <keys>
+		<string> </string>
+        <string>dated </string>
+		<string> </string>
+      </keys>
+      <uniqueQuestion>
+		<string>Have you met the new girl?</string>
+		<string>*_Do you want to meet me at home? </string>
+		<string>/_Do you want to meet me at home? </string>
+	  </uniqueQuestion>
+      <uniqueAnswers>
+        <string>Yes. what about it, are you jealous? hohoho... </string>
+		<string>Of course, I'll see you there in 30 minutes</string>
+		<string>Nah... tomorrow maybe.</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+    <Dialogue_UniqueQuestionClass><!--Todos a Todos-->
+      <speakers>-1</speakers>
+      <listener>-1</listener>
+	  <exception>2</exception>
+	  <exceptionAtLine>1</exceptionAtLine>
+	  <keys>
+        <string>pigeon</string>
+        <string>trap</string>
+      </keys>
+      <uniqueQuestion>
+        <string>Do you have any carrier pigeon?</string>
+		<string>Hey, do you know something about the trap there in the woods?</string>
+      </uniqueQuestion>
+      <uniqueAnswers>
+        <string>@_No, but I'm sure you can find one at the stables</string>
+		<string>@_Oh yeah, I think Aldis uses it to catch snakes.</string>
+      </uniqueAnswers>
+    </Dialogue_UniqueQuestionClass>
+  </uniqueClass>
+</DialogueRoot>

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 55564767056d9a24e88826d02bc73d55
+timeCreated: 1531737848
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BlackwoodCastle
+  fontNames:
+  - BlackwoodCastle
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

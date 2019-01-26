@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DialogueRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--> MEOAN <!-->
+	<gold>gold</gold>
+	<placeYourbet>Make your bet</placeYourbet>
+	<bet>Bet</bet>
+	<exit>Exit</exit>
+	<rolltheDice>Throw the dice</rolltheDice>
+	<roll>Roll</roll>
+	<pressAnykey>Press Any Key</pressAnykey>
+	<player>Player</player>
+	<opponent>Opponent</opponent>
+	<score>Score</score>
+	<roundScore>Round Score</roundScore>
+	<pass>Pass</pass>
+	<youWin>You Win!!</youWin>
+	<youLose>You Lose</youLose>
+	<warningBet>Place your bet</warningBet>
+	<playerStarts>Player Starts</playerStarts>
+	<opponentStarts>Opponent Starts</opponentStarts>
+	<draw>Draw</draw>
+	<rollAgain>Roll again</rollAgain>
+	<badLuck>Bad Luck</badLuck>
+	<opponentFail>Opponent misses</opponentFail>
+	<yourTurn>Player's turn</yourTurn>
+	<luckyOne>Lucky One!!</luckyOne>
+	<opponenPasses>Opponent passes</opponenPasses>
+	<yourEarn>You earn </yourEarn>
+  
+  <!--> TIENDA <!-->
+	<bottle>Alcohol bottle</bottle>
+	<shopSentence>What do you have for sale?</shopSentence>
+	<shopConfirmation>Do you want to buy it?</shopConfirmation>
+  
+    <!--> FRASES SUELTAS <!-->
+	<stairClosed>Hey, You can't go up there!</stairClosed>
+	<doorClosed>It's closed. I don't live here</doorClosed>
+	<bridgeClosure>Can't leave the town yet. I must find the killers first.</bridgeClosure>
+	<cantUse>Can't use that here</cantUse>
+	<isDead>Is dead</isDead>
+	<quincarnonNoDate>Bah... What a waste of time</quincarnonNoDate>
+	<quincarnonFlee>Ah! Ehm... hi... Bye.</quincarnonFlee>
+	<quincarnonLate>¡Here you are! ¿Shall we come in?</quincarnonLate>
+	<cantTransmutate>Can't transmutate here, there's people around.</cantTransmutate>
+	<notEnoughCoin>Not enough coin</notEnoughCoin>
+	<mathiasDoorStop>Bring me some drink or GET OUT OF HERE!</mathiasDoorStop>
+	<mathiasDoorGo>So you have some booze, come in</mathiasDoorGo>
+	<introText>That was two days ago. I'm in Cornwood Dale now, first of all I should meet the villagers. Let's go!</introText>
+	<broke>I'm broke</broke>
+  
+  
+    <!--> TRAMPA SERPIENTES <!-->
+	<disarmedTrap>Looks like a trap. I don't know how to arm it</disarmedTrap>
+	<trapSet>The trap is armed, Now I just have to wait...</trapSet>
+	<armedTrap>TRAP ARMED</armedTrap>
+	<snakeNoBoxSentence>There's a snake in the trap but I have nothing to put it in</snakeNoBoxSentence>
+	<snakeBoxSetence>Come here cutie</snakeBoxSetence>
+  
+		<!--> INVENTARIO <!-->
+	<newObject>Added to the inventory</newObject>
+	<schematics>Trap blueprints</schematics> 
+	<schematicsDescription>Snake trap instructions</schematicsDescription>
+	<flintSteel>Flint and stone</flintSteel> 
+	<flintSteelDescription>A flint and stone to make fire</flintSteelDescription>
+	<giftBox>Gift box</giftBox> 
+	<giftBoxDescription>A wooden gift box. It's empty</giftBoxDescription>
+	<alcoholBottle>Alcohol bottle</alcoholBottle> 
+	<alcoholBottleDescription>High graduation alcohol. Do not swallow!</alcoholBottleDescription>
+	<snakeBox>Gift snake</snakeBox> 
+	<snakeBoxDescription>A wooden gift box with a snake inside</snakeBoxDescription>
+  
+		<!--> CLUES <!-->
+	<wino>Mathias may be one the killers</wino>
+	<snake>Rosita is allergic to snakes</snake>
+	<trap>Aldis must have a way to arm the trap</trap>
+	<lover>Quincarnon and Rosita have an affair</lover>
+	<straw>Aldis loves to do straw cubes</straw> 
+	<burn>The straw is very flammable</burn>
+	<dateSet>I'm meeting Quincarnon at Rosita's house</dateSet>
+	<thug>I have to kill Quincarnon, he is one of them</thug>
+	
+	
+		<!--> DESCRIPTIONS <!-->
+	<majorelDesc>Seventeen years old. In search for her parent's assasins. Fast, clever and suspicious. Not a hero.</majorelDesc>
+	<mathiasDesc>An old member of the assasin's crew. A loser without friends. Loves booze.</mathiasDesc> 
+	<quincarnonDesc>Another member of the assasin's crew. Married with Marga. He thinks he is smart and a Casanova.</quincarnonDesc>
+	<rositaDesc>She lives alone in Cornwood Dale since her parents died. She's Marga's friend.</rositaDesc> 
+	<kipDesc>The shopkeeper. Married with Royce. He is a good person but loves money too much.</kipDesc>
+	<royceDesc>The shopkeeper's wife. She doesn't talk too much. She likes to stroll around town.</royceDesc>
+	<margaDesc>Quincarnon's wife. Without self-confidence. Marrying Quincarnon wasn't a good idea.</margaDesc>
+	<aldisDesc>The farmer. Loves cows. Loves Cornwood Dale. He will never leave this village.</aldisDesc>
+	
+		<!--> STATUES <!-->
+	<deathStatue>Statue in honor of the death. Despite for many it is the end, its real meaning is the beginning.</deathStatue>
+	<jokerStatue>Statue in honor of the joker. Don't forget to laugh and to enjoy, don't deny the child inside yourself.</jokerStatue>
+	<creatureStatue>Statue in honor of the creature. What everybody fear and everyone will become.</deathStatue>
+	<beggarStatue>Statue in honor of the beggar. We are nothing but our wisdom and only time will prove us right.</deathStatue>
+	<golemStatue>Statue in honor of the golem. Strength makes us stand for as long and hard as life can be.</deathStatue>
+	
+</DialogueRoot>

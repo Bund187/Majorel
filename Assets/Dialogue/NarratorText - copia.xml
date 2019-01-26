@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DialogueRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <sentence>
+    <string> </string>
+	<string> </string>
+	<string>There I was, five years old, coming back home from a great day playing. Not conscious to what fate had in store for me</string>
+    <string>Two cold bodies were lying on the floor. They were my parents</string>
+    <string>I cried until I fell sleep. My whole life had changed forever.</string>
+    <string>I couldn't stay there anymore... so I walked away...</string>
+    <string>...</string>
+	<string>...I just walked away</string>
+	<string> </string>
+    <string>I survived in the woods, eating plants and insects</string>
+    <string>I was lucky as I knew the forest well</string>
+	<string> </string>
+	<string>I don't know how long I walked alone but finally I arrived to Nivine.</string>
+	<string>The great city of Nivine... I thought somebody would help me...</string>
+	<string>...How wrong I was...</string>
+	<string> </string>
+	<string>Living in the streets I learned how to steal and how to defend myself. Always alone.</string>
+	<string> </string>
+	<string> </string>
+	<string>But, at the end, I survived. Against all odds I SURVIVED! And that's why twelve years later I found you...</string>
+  </sentence>
+  <majorelSentence>
+    <string>frase majorel 0</string>
+    <string>What..What are you!</string>
+    <string>frase majorel 2</string>
+    <string>frase majorel 3</string>
+    <string>frase majorel 4</string>
+    <string>frase majorel 5</string>
+    <string>Where? Just...</string>
+    <string>frase majorel 7</string>
+    <string>frase majorel 8</string>
+    <string>AAAAAHHH!</string>
+	<string>frase majorel 10</string>
+    <string>frase majorel 11</string>
+    
+  </majorelSentence>
+  <entitySentence>
+    <string>Hello Majorel...</string>
+    <string>That doesn't matter.</string>
+    <string>We just know plenty of things</string>
+    <string>We know you are a born fighter, a survivor</string>
+    <string>We also know that you want to find your parent's killers.</string>
+    <string>And we know where they are.</string>
+    <string>They are in a village called Cornwood Dale.</string>
+    <string>Go two days north and you'll find it.</string>
+    <string>But first, let us give you a present.</string>
+    <string>From now on you can become anyone you kill.</string>
+	<string>Their souls will be ours, the bodies all yours.</string>
+    <string>Take good advantage of it and enjoy your revenge. Farewell Majorel.</string>
+    
+  </entitySentence>
+</DialogueRoot>

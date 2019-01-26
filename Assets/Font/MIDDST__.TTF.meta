@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b34df611d81b2f949b9b9142f1eae118
+timeCreated: 1516552753
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MiddleSaxonyText
+  fontNames:
+  - MiddleSaxonyText
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
