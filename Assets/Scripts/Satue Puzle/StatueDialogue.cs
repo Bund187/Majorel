@@ -15,19 +15,14 @@ public class StatueDialogue : ActionManager
         if(gameObject.name.Contains("Golem"))
             textAppearanceManager.Sentence = miscClass.MiscClass.golemStatue.ToCharArray();
         if (gameObject.name.Contains("Death"))
-            textAppearanceManager.Sentence = miscClass.MiscClass.golemStatue.ToCharArray();
+            textAppearanceManager.Sentence = miscClass.MiscClass.deathStatue.ToCharArray();
         if (gameObject.name.Contains("Joker"))
-            textAppearanceManager.Sentence = miscClass.MiscClass.golemStatue.ToCharArray();
+            textAppearanceManager.Sentence = miscClass.MiscClass.jokerStatue.ToCharArray();
         if (gameObject.name.Contains("Creature"))
-            textAppearanceManager.Sentence = miscClass.MiscClass.golemStatue.ToCharArray();
+            textAppearanceManager.Sentence = miscClass.MiscClass.creatureStatue.ToCharArray();
         if (gameObject.name.Contains("Beggar"))
-            textAppearanceManager.Sentence = miscClass.MiscClass.golemStatue.ToCharArray();
-        textAppearanceManager.Sentence = miscClass.MiscClass.deathStatue.ToCharArray();
-        textAppearanceManager.Sentence = miscClass.MiscClass.beggarStatue.ToCharArray();
-        textAppearanceManager.Sentence = miscClass.MiscClass.jokerStatue.ToCharArray();
-        textAppearanceManager.Sentence = miscClass.MiscClass.creatureStatue.ToCharArray();
-        
-        this.gameObject.SetActive(false);
+            textAppearanceManager.Sentence = miscClass.MiscClass.beggarStatue.ToCharArray();
+
         textAppearanceManager.Text = text;
         textAppearanceManager.enabled = true;
     }

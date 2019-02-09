@@ -93,8 +93,8 @@
 		<!--> STATUES <!-->
 	<deathStatue>Statue in honor of the death. Despite for many it is the end, its real meaning is the beginning.</deathStatue>
 	<jokerStatue>Statue in honor of the joker. Don't forget to laugh and to enjoy, don't deny the child inside yourself.</jokerStatue>
-	<creatureStatue>Statue in honor of the creature. What everybody fear and everyone will become.</deathStatue>
-	<beggarStatue>Statue in honor of the beggar. We are nothing but our wisdom and only time will prove us right.</deathStatue>
-	<golemStatue>Statue in honor of the golem. Strength makes us stand for as long and hard as life can be.</deathStatue>
+	<creatureStatue>Statue in honor of the creature. What everybody fear and everyone will become.</creatureStatue>
+	<beggarStatue>Statue in honor of the beggar. We are nothing but our wisdom and only time will prove us right.</beggarStatue>
+	<golemStatue>Statue in honor of the golem. Strength makes us stand for as long and hard as life can be.</golemStatue>
 	
 </DialogueRoot>
